@@ -77,3 +77,572 @@
 2024-06-24 17:18:14,756 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-06-24 17:18:02.052732+00:00, run_id=manual__2024-06-24T17:18:02.052732+00:00, run_start_date=2024-06-24 17:18:03.917422+00:00, run_end_date=2024-06-24 17:18:14.756597+00:00, run_duration=10.839175, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-24 17:18:02.052732+00:00, data_interval_end=2024-06-24 17:18:02.052732+00:00, dag_hash=fbb5556d38ec0bba94cee596c221684f
 2024-06-24 17:22:40,874 INFO - Resetting orphaned tasks for active dag runs
 2024-06-24 17:27:41,038 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 17:32:41,134 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 17:37:41,140 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 17:42:41,299 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 17:47:41,463 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 17:52:41,624 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:12:17,732 INFO - Starting the scheduler
+2024-06-24 19:12:17,737 INFO - Processing each file at most -1 times
+2024-06-24 19:12:17,744 INFO - Launched DagFileProcessorManager with pid: 20813
+2024-06-24 19:12:17,746 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:12:17,769 INFO - Configured default timezone Timezone('UTC')
+2024-06-24 19:12:18,144 INFO - Marked 1 SchedulerJob instances as failed
+2024-06-24 19:12:22,902 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Cache-Control: max-age=0
+Referer: https://ominous-train-vpgp47r4vp3ppxj.github.dev/
+X-Request-Id: 1bcacd3e687cd4c15afc55eb522849d6
+X-Real-Ip: 10.240.2.131
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Dnt: 1
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:12:22,904 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:12:23,269 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Referer: https://ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev/
+X-Request-Id: 820a5ac3be51f580fac83befb0acf902
+X-Real-Ip: 10.240.2.131
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Dnt: 1
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:12:23,269 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:12:29,041 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Cache-Control: max-age=0
+Referer: https://ominous-train-vpgp47r4vp3ppxj.github.dev/
+X-Request-Id: eec126a9a92c6d341e545dc35abc15bd
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Dnt: 1
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:12:29,042 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:12:29,222 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Referer: https://ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev/
+X-Request-Id: 7e7945eb0e2ffe320208d1dbc2ac739c
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Dnt: 1
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:12:29,224 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:12:41,186 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Cache-Control: max-age=0
+Referer: https://ominous-train-vpgp47r4vp3ppxj.github.dev/
+X-Request-Id: 1252b99245e96d1efe7724229418cc24
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Dnt: 1
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:12:41,187 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:12:41,349 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Referer: https://ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev/
+X-Request-Id: 67087a589103f8e2dfb16648caf4f6d9
+X-Real-Ip: 10.240.4.161
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Dnt: 1
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:12:41,349 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:13:02,539 INFO - Exiting gracefully upon receiving signal 15
+2024-06-24 19:13:03,544 INFO - Sending Signals.SIGTERM to group 20813. PIDs of all processes in the group: [20813]
+2024-06-24 19:13:03,545 INFO - Sending the signal Signals.SIGTERM to group 20813
+2024-06-24 19:13:04,079 INFO - Process psutil.Process(pid=20813, status='terminated', exitcode=0, started='19:12:17') (20813) terminated with exit code 0
+2024-06-24 19:13:04,081 INFO - Sending Signals.SIGTERM to group 20813. PIDs of all processes in the group: []
+2024-06-24 19:13:04,082 INFO - Sending the signal Signals.SIGTERM to group 20813
+2024-06-24 19:13:04,082 INFO - Sending the signal Signals.SIGTERM to process 20813 as process group is missing.
+2024-06-24 19:13:04,082 INFO - Exited execute loop
+2024-06-24 19:13:42,988 INFO - Starting the scheduler
+2024-06-24 19:13:42,990 INFO - Processing each file at most -1 times
+2024-06-24 19:13:42,997 INFO - Launched DagFileProcessorManager with pid: 21606
+2024-06-24 19:13:42,999 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:13:43,011 INFO - Configured default timezone Timezone('UTC')
+2024-06-24 19:13:51,117 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Referer: https://ominous-train-vpgp47r4vp3ppxj.github.dev/
+X-Request-Id: 1ce87df3a0e952229f5861e45b5ff0e2
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Dnt: 1
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.3.217
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:13:51,119 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:13:51,524 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Referer: https://ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev/
+X-Request-Id: da1456a36193c258d5ff3960883385da
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Dnt: 1
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.3.217
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:13:51,525 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:14:14,050 INFO - Exiting gracefully upon receiving signal 15
+2024-06-24 19:14:15,063 INFO - Sending Signals.SIGTERM to group 21606. PIDs of all processes in the group: [21606]
+2024-06-24 19:14:15,064 INFO - Sending the signal Signals.SIGTERM to group 21606
+2024-06-24 19:14:15,599 INFO - Process psutil.Process(pid=21606, status='terminated', exitcode=0, started='19:13:42') (21606) terminated with exit code 0
+2024-06-24 19:14:15,603 INFO - Sending Signals.SIGTERM to group 21606. PIDs of all processes in the group: []
+2024-06-24 19:14:15,603 INFO - Sending the signal Signals.SIGTERM to group 21606
+2024-06-24 19:14:15,604 INFO - Sending the signal Signals.SIGTERM to process 21606 as process group is missing.
+2024-06-24 19:14:15,604 INFO - Exited execute loop
+2024-06-24 19:15:23,783 INFO - Starting the scheduler
+2024-06-24 19:15:23,784 INFO - Processing each file at most -1 times
+2024-06-24 19:15:23,791 INFO - Launched DagFileProcessorManager with pid: 22658
+2024-06-24 19:15:23,792 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:15:23,807 INFO - Configured default timezone Timezone('UTC')
+2024-06-24 19:15:28,807 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Cache-Control: max-age=0
+Referer: https://ominous-train-vpgp47r4vp3ppxj.github.dev/
+X-Request-Id: d2996fe930d219cb4684321c5248939f
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Dnt: 1
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.99
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:15:28,809 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:15:29,156 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, ar-EG; q=0.8, ar; q=0.7
+Referer: https://ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev/
+X-Request-Id: 27c2a7f25145865a7b4a5d538dc6f7a6
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Dnt: 1
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Android"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ominous-train-vpgp47r4vp3ppxj-8793.app.github.dev
+X-Forwarded-For: 10.240.2.99
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-24 19:15:29,157 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-06-24 19:20:24,307 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:21:41,558 INFO - Exiting gracefully upon receiving signal 15
+2024-06-24 19:21:42,563 INFO - Sending Signals.SIGTERM to group 22658. PIDs of all processes in the group: [22658]
+2024-06-24 19:21:42,564 INFO - Sending the signal Signals.SIGTERM to group 22658
+2024-06-24 19:21:43,027 INFO - Process psutil.Process(pid=22658, status='terminated', exitcode=0, started='19:15:23') (22658) terminated with exit code 0
+2024-06-24 19:21:43,031 INFO - Sending Signals.SIGTERM to group 22658. PIDs of all processes in the group: []
+2024-06-24 19:21:43,031 INFO - Sending the signal Signals.SIGTERM to group 22658
+2024-06-24 19:21:43,032 INFO - Sending the signal Signals.SIGTERM to process 22658 as process group is missing.
+2024-06-24 19:21:43,032 INFO - Exited execute loop
+2024-06-24 19:24:03,193 INFO - Starting the scheduler
+2024-06-24 19:24:03,194 INFO - Processing each file at most -1 times
+2024-06-24 19:24:03,199 INFO - Launched DagFileProcessorManager with pid: 26967
+2024-06-24 19:24:03,201 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:24:03,204 INFO - Configured default timezone Timezone('UTC')
+2024-06-24 19:25:21,361 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2024-06-24T19:25:20.833779+00:00 [scheduled]>
+2024-06-24 19:25:21,361 INFO - DAG extract_dag has 0/16 running and queued tasks
+2024-06-24 19:25:21,362 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2024-06-24T19:25:20.833779+00:00 [scheduled]>
+2024-06-24 19:25:21,365 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-06-24T19:25:20.833779+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-24 19:25:21,366 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-06-24T19:25:20.833779+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-06-24 19:25:21,392 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-06-24T19:25:20.833779+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-06-24 19:25:24,308 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-06-24T19:25:20.833779+00:00', try_number=1, map_index=-1)
+2024-06-24 19:25:24,316 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2024-06-24T19:25:20.833779+00:00, map_index=-1, run_start_date=2024-06-24 19:25:23.497320+00:00, run_end_date=2024-06-24 19:25:23.854515+00:00, run_duration=0.357195, state=success, executor_state=success, try_number=1, max_tries=0, job_id=12, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-06-24 19:25:21.362732+00:00, queued_by_job_id=11, pid=27562
+2024-06-24 19:25:24,478 INFO - Marking run <DagRun extract_dag @ 2024-06-24 19:25:20.833779+00:00: manual__2024-06-24T19:25:20.833779+00:00, state:running, queued_at: 2024-06-24 19:25:20.880060+00:00. externally triggered: True> successful
+2024-06-24 19:25:24,479 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2024-06-24 19:25:20.833779+00:00, run_id=manual__2024-06-24T19:25:20.833779+00:00, run_start_date=2024-06-24 19:25:21.281169+00:00, run_end_date=2024-06-24 19:25:24.479086+00:00, run_duration=3.197917, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-24 19:25:20.833779+00:00, data_interval_end=2024-06-24 19:25:20.833779+00:00, dag_hash=5697037627a38bfc911fe854a7265565
+2024-06-24 19:29:03,525 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:34:03,685 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:39:03,848 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:44:03,938 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:49:04,099 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:54:04,259 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 19:59:04,417 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 20:04:04,545 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 20:09:04,561 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 20:14:04,721 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 20:19:04,827 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 20:24:05,015 INFO - Resetting orphaned tasks for active dag runs
+2024-06-24 20:29:05,210 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:21:39,528 INFO - Starting the scheduler
+2024-06-25 11:21:39,538 INFO - Processing each file at most -1 times
+2024-06-25 11:21:39,543 INFO - Launched DagFileProcessorManager with pid: 6775
+2024-06-25 11:21:39,544 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:21:39,547 INFO - Configured default timezone Timezone('UTC')
+2024-06-25 11:21:39,768 INFO - Marked 1 SchedulerJob instances as failed
+2024-06-25 11:22:16,486 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2024-06-25T11:22:15.677668+00:00 [scheduled]>
+2024-06-25 11:22:16,487 INFO - DAG transform_dag has 0/16 running and queued tasks
+2024-06-25 11:22:16,487 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2024-06-25T11:22:15.677668+00:00 [scheduled]>
+2024-06-25 11:22:16,489 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2024-06-25T11:22:15.677668+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-25 11:22:16,489 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2024-06-25T11:22:15.677668+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2024-06-25 11:22:16,517 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2024-06-25T11:22:15.677668+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2024-06-25 11:22:19,122 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2024-06-25T11:22:15.677668+00:00', try_number=1, map_index=-1)
+2024-06-25 11:22:19,130 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2024-06-25T11:22:15.677668+00:00, map_index=-1, run_start_date=2024-06-25 11:22:18.490821+00:00, run_end_date=2024-06-25 11:22:18.711910+00:00, run_duration=0.221089, state=success, executor_state=success, try_number=1, max_tries=0, job_id=14, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-06-25 11:22:16.487988+00:00, queued_by_job_id=13, pid=7065
+2024-06-25 11:22:19,396 INFO - Marking run <DagRun transform_dag @ 2024-06-25 11:22:15.677668+00:00: manual__2024-06-25T11:22:15.677668+00:00, state:running, queued_at: 2024-06-25 11:22:15.688369+00:00. externally triggered: True> successful
+2024-06-25 11:22:19,397 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2024-06-25 11:22:15.677668+00:00, run_id=manual__2024-06-25T11:22:15.677668+00:00, run_start_date=2024-06-25 11:22:16.400305+00:00, run_end_date=2024-06-25 11:22:19.397037+00:00, run_duration=2.996732, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-25 11:22:15.677668+00:00, data_interval_end=2024-06-25 11:22:15.677668+00:00, dag_hash=fa8368cdeb3e0e897cfd329e5d9f3900
+2024-06-25 11:26:39,983 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:31:40,146 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:36:40,306 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:41:40,514 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:46:40,675 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:51:40,833 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 11:56:40,992 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:01:41,252 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:06:41,413 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:11:41,673 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:16:41,808 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:17:29,122 INFO - 1 tasks up for execution:
+	<TaskInstance: load_dag.load_task manual__2024-06-25T12:17:28.439773+00:00 [scheduled]>
+2024-06-25 12:17:29,123 INFO - DAG load_dag has 0/16 running and queued tasks
+2024-06-25 12:17:29,123 INFO - Setting the following tasks to queued state:
+	<TaskInstance: load_dag.load_task manual__2024-06-25T12:17:28.439773+00:00 [scheduled]>
+2024-06-25 12:17:29,124 INFO - Sending TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2024-06-25T12:17:28.439773+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-25 12:17:29,125 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2024-06-25T12:17:28.439773+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2024-06-25 12:17:29,154 INFO - Executing command: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2024-06-25T12:17:28.439773+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2024-06-25 12:17:32,020 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2024-06-25T12:17:28.439773+00:00', try_number=1, map_index=-1)
+2024-06-25 12:17:32,023 INFO - TaskInstance Finished: dag_id=load_dag, task_id=load_task, run_id=manual__2024-06-25T12:17:28.439773+00:00, map_index=-1, run_start_date=2024-06-25 12:17:31.291358+00:00, run_end_date=2024-06-25 12:17:31.597489+00:00, run_duration=0.306131, state=success, executor_state=success, try_number=1, max_tries=0, job_id=15, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-06-25 12:17:29.123922+00:00, queued_by_job_id=13, pid=36492
+2024-06-25 12:17:32,165 INFO - Marking run <DagRun load_dag @ 2024-06-25 12:17:28.439773+00:00: manual__2024-06-25T12:17:28.439773+00:00, state:running, queued_at: 2024-06-25 12:17:28.449238+00:00. externally triggered: True> successful
+2024-06-25 12:17:32,165 INFO - DagRun Finished: dag_id=load_dag, execution_date=2024-06-25 12:17:28.439773+00:00, run_id=manual__2024-06-25T12:17:28.439773+00:00, run_start_date=2024-06-25 12:17:29.045548+00:00, run_end_date=2024-06-25 12:17:32.165581+00:00, run_duration=3.120033, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-25 12:17:28.439773+00:00, data_interval_end=2024-06-25 12:17:28.439773+00:00, dag_hash=0bc02292f1233212c30a1a2607cb2769
+2024-06-25 12:21:41,967 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:26:42,177 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:27:16,353 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.extract_task manual__2024-06-25T12:27:15.977548+00:00 [scheduled]>
+2024-06-25 12:27:16,356 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2024-06-25 12:27:16,358 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.extract_task manual__2024-06-25T12:27:15.977548+00:00 [scheduled]>
+2024-06-25 12:27:16,366 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='extract_task', run_id='manual__2024-06-25T12:27:15.977548+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-25 12:27:16,368 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2024-06-25T12:27:15.977548+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2024-06-25 12:27:16,434 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2024-06-25T12:27:15.977548+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2024-06-25 12:27:19,492 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='basic_etl_dag', task_id='extract_task', run_id='manual__2024-06-25T12:27:15.977548+00:00', try_number=1, map_index=-1)
+2024-06-25 12:27:19,496 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=extract_task, run_id=manual__2024-06-25T12:27:15.977548+00:00, map_index=-1, run_start_date=2024-06-25 12:27:18.391029+00:00, run_end_date=2024-06-25 12:27:19.012423+00:00, run_duration=0.621394, state=success, executor_state=success, try_number=1, max_tries=0, job_id=16, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2024-06-25 12:27:16.359511+00:00, queued_by_job_id=13, pid=40859
+2024-06-25 12:27:19,670 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.transform_task manual__2024-06-25T12:27:15.977548+00:00 [scheduled]>
+2024-06-25 12:27:19,671 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2024-06-25 12:27:19,671 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.transform_task manual__2024-06-25T12:27:15.977548+00:00 [scheduled]>
+2024-06-25 12:27:19,674 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='transform_task', run_id='manual__2024-06-25T12:27:15.977548+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-25 12:27:19,674 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'transform_task', 'manual__2024-06-25T12:27:15.977548+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2024-06-25 12:27:19,710 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'transform_task', 'manual__2024-06-25T12:27:15.977548+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2024-06-25 12:27:22,582 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='basic_etl_dag', task_id='transform_task', run_id='manual__2024-06-25T12:27:15.977548+00:00', try_number=1, map_index=-1)
+2024-06-25 12:27:22,586 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=transform_task, run_id=manual__2024-06-25T12:27:15.977548+00:00, map_index=-1, run_start_date=2024-06-25 12:27:21.815649+00:00, run_end_date=2024-06-25 12:27:22.079792+00:00, run_duration=0.264143, state=success, executor_state=success, try_number=1, max_tries=0, job_id=17, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-25 12:27:19.671985+00:00, queued_by_job_id=13, pid=40900
+2024-06-25 12:27:22,788 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.load_task manual__2024-06-25T12:27:15.977548+00:00 [scheduled]>
+2024-06-25 12:27:22,789 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2024-06-25 12:27:22,789 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.load_task manual__2024-06-25T12:27:15.977548+00:00 [scheduled]>
+2024-06-25 12:27:22,792 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='load_task', run_id='manual__2024-06-25T12:27:15.977548+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-25 12:27:22,792 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'load_task', 'manual__2024-06-25T12:27:15.977548+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2024-06-25 12:27:22,820 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'load_task', 'manual__2024-06-25T12:27:15.977548+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2024-06-25 12:27:25,491 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='basic_etl_dag', task_id='load_task', run_id='manual__2024-06-25T12:27:15.977548+00:00', try_number=1, map_index=-1)
+2024-06-25 12:27:25,495 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=load_task, run_id=manual__2024-06-25T12:27:15.977548+00:00, map_index=-1, run_start_date=2024-06-25 12:27:24.728900+00:00, run_end_date=2024-06-25 12:27:25.026299+00:00, run_duration=0.297399, state=success, executor_state=success, try_number=1, max_tries=0, job_id=18, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-06-25 12:27:22.790345+00:00, queued_by_job_id=13, pid=40910
+2024-06-25 12:27:25,629 INFO - Marking run <DagRun basic_etl_dag @ 2024-06-25 12:27:15.977548+00:00: manual__2024-06-25T12:27:15.977548+00:00, state:running, queued_at: 2024-06-25 12:27:16.028032+00:00. externally triggered: True> successful
+2024-06-25 12:27:25,629 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-06-25 12:27:15.977548+00:00, run_id=manual__2024-06-25T12:27:15.977548+00:00, run_start_date=2024-06-25 12:27:16.216604+00:00, run_end_date=2024-06-25 12:27:25.629452+00:00, run_duration=9.412848, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-25 12:27:15.977548+00:00, data_interval_end=2024-06-25 12:27:15.977548+00:00, dag_hash=bae6be2e9d9b5d6377abab1b20839366
+2024-06-25 12:31:42,313 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:36:42,450 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:37:37,404 INFO - 1 tasks up for execution:
+	<TaskInstance: challenge_dag.extract_task manual__2024-06-25T12:37:36.969244+00:00 [scheduled]>
+2024-06-25 12:37:37,404 INFO - DAG challenge_dag has 0/16 running and queued tasks
+2024-06-25 12:37:37,404 INFO - Setting the following tasks to queued state:
+	<TaskInstance: challenge_dag.extract_task manual__2024-06-25T12:37:36.969244+00:00 [scheduled]>
+2024-06-25 12:37:37,407 INFO - Sending TaskInstanceKey(dag_id='challenge_dag', task_id='extract_task', run_id='manual__2024-06-25T12:37:36.969244+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-25 12:37:37,408 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2024-06-25T12:37:36.969244+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:37:37,436 INFO - Executing command: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2024-06-25T12:37:36.969244+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:37:40,068 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='challenge_dag', task_id='extract_task', run_id='manual__2024-06-25T12:37:36.969244+00:00', try_number=1, map_index=-1)
+2024-06-25 12:37:40,075 INFO - TaskInstance Finished: dag_id=challenge_dag, task_id=extract_task, run_id=manual__2024-06-25T12:37:36.969244+00:00, map_index=-1, run_start_date=2024-06-25 12:37:39.327019+00:00, run_end_date=2024-06-25 12:37:39.616525+00:00, run_duration=0.289506, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=19, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2024-06-25 12:37:37.405516+00:00, queued_by_job_id=13, pid=45443
+2024-06-25 12:37:41,059 ERROR - Marking run <DagRun challenge_dag @ 2024-06-25 12:37:36.969244+00:00: manual__2024-06-25T12:37:36.969244+00:00, state:running, queued_at: 2024-06-25 12:37:36.982135+00:00. externally triggered: True> failed
+2024-06-25 12:37:41,060 INFO - DagRun Finished: dag_id=challenge_dag, execution_date=2024-06-25 12:37:36.969244+00:00, run_id=manual__2024-06-25T12:37:36.969244+00:00, run_start_date=2024-06-25 12:37:37.338811+00:00, run_end_date=2024-06-25 12:37:41.060019+00:00, run_duration=3.721208, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-25 12:37:36.969244+00:00, data_interval_end=2024-06-25 12:37:36.969244+00:00, dag_hash=87b7b49334599998e349171c9a7e6e52
+2024-06-25 12:41:00,889 INFO - 1 tasks up for execution:
+	<TaskInstance: challenge_dag.extract_task manual__2024-06-25T12:40:59.280607+00:00 [scheduled]>
+2024-06-25 12:41:00,889 INFO - DAG challenge_dag has 0/16 running and queued tasks
+2024-06-25 12:41:00,889 INFO - Setting the following tasks to queued state:
+	<TaskInstance: challenge_dag.extract_task manual__2024-06-25T12:40:59.280607+00:00 [scheduled]>
+2024-06-25 12:41:00,892 INFO - Sending TaskInstanceKey(dag_id='challenge_dag', task_id='extract_task', run_id='manual__2024-06-25T12:40:59.280607+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-25 12:41:00,893 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2024-06-25T12:40:59.280607+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:41:00,922 INFO - Executing command: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2024-06-25T12:40:59.280607+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:41:03,821 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='challenge_dag', task_id='extract_task', run_id='manual__2024-06-25T12:40:59.280607+00:00', try_number=1, map_index=-1)
+2024-06-25 12:41:03,825 INFO - TaskInstance Finished: dag_id=challenge_dag, task_id=extract_task, run_id=manual__2024-06-25T12:40:59.280607+00:00, map_index=-1, run_start_date=2024-06-25 12:41:02.981913+00:00, run_end_date=2024-06-25 12:41:03.333411+00:00, run_duration=0.351498, state=success, executor_state=success, try_number=1, max_tries=0, job_id=20, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2024-06-25 12:41:00.890455+00:00, queued_by_job_id=13, pid=46939
+2024-06-25 12:41:04,022 INFO - 1 tasks up for execution:
+	<TaskInstance: challenge_dag.transform_task manual__2024-06-25T12:40:59.280607+00:00 [scheduled]>
+2024-06-25 12:41:04,023 INFO - DAG challenge_dag has 0/16 running and queued tasks
+2024-06-25 12:41:04,023 INFO - Setting the following tasks to queued state:
+	<TaskInstance: challenge_dag.transform_task manual__2024-06-25T12:40:59.280607+00:00 [scheduled]>
+2024-06-25 12:41:04,027 INFO - Sending TaskInstanceKey(dag_id='challenge_dag', task_id='transform_task', run_id='manual__2024-06-25T12:40:59.280607+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-25 12:41:04,027 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'challenge_dag', 'transform_task', 'manual__2024-06-25T12:40:59.280607+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:41:04,055 INFO - Executing command: ['airflow', 'tasks', 'run', 'challenge_dag', 'transform_task', 'manual__2024-06-25T12:40:59.280607+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:41:06,994 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='challenge_dag', task_id='transform_task', run_id='manual__2024-06-25T12:40:59.280607+00:00', try_number=1, map_index=-1)
+2024-06-25 12:41:06,997 INFO - TaskInstance Finished: dag_id=challenge_dag, task_id=transform_task, run_id=manual__2024-06-25T12:40:59.280607+00:00, map_index=-1, run_start_date=2024-06-25 12:41:06.178935+00:00, run_end_date=2024-06-25 12:41:06.450031+00:00, run_duration=0.271096, state=success, executor_state=success, try_number=1, max_tries=0, job_id=21, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-25 12:41:04.024375+00:00, queued_by_job_id=13, pid=46973
+2024-06-25 12:41:07,171 INFO - 1 tasks up for execution:
+	<TaskInstance: challenge_dag.load_task manual__2024-06-25T12:40:59.280607+00:00 [scheduled]>
+2024-06-25 12:41:07,171 INFO - DAG challenge_dag has 0/16 running and queued tasks
+2024-06-25 12:41:07,171 INFO - Setting the following tasks to queued state:
+	<TaskInstance: challenge_dag.load_task manual__2024-06-25T12:40:59.280607+00:00 [scheduled]>
+2024-06-25 12:41:07,173 INFO - Sending TaskInstanceKey(dag_id='challenge_dag', task_id='load_task', run_id='manual__2024-06-25T12:40:59.280607+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-25 12:41:07,173 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'challenge_dag', 'load_task', 'manual__2024-06-25T12:40:59.280607+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:41:07,212 INFO - Executing command: ['airflow', 'tasks', 'run', 'challenge_dag', 'load_task', 'manual__2024-06-25T12:40:59.280607+00:00', '--local', '--subdir', 'DAGS_FOLDER/challange_dag.py']
+2024-06-25 12:41:10,065 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='challenge_dag', task_id='load_task', run_id='manual__2024-06-25T12:40:59.280607+00:00', try_number=1, map_index=-1)
+2024-06-25 12:41:10,068 INFO - TaskInstance Finished: dag_id=challenge_dag, task_id=load_task, run_id=manual__2024-06-25T12:40:59.280607+00:00, map_index=-1, run_start_date=2024-06-25 12:41:09.294266+00:00, run_end_date=2024-06-25 12:41:09.609658+00:00, run_duration=0.315392, state=success, executor_state=success, try_number=1, max_tries=0, job_id=22, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-06-25 12:41:07.172329+00:00, queued_by_job_id=13, pid=46989
+2024-06-25 12:41:10,247 INFO - Marking run <DagRun challenge_dag @ 2024-06-25 12:40:59.280607+00:00: manual__2024-06-25T12:40:59.280607+00:00, state:running, queued_at: 2024-06-25 12:40:59.287190+00:00. externally triggered: True> successful
+2024-06-25 12:41:10,247 INFO - DagRun Finished: dag_id=challenge_dag, execution_date=2024-06-25 12:40:59.280607+00:00, run_id=manual__2024-06-25T12:40:59.280607+00:00, run_start_date=2024-06-25 12:41:00.821029+00:00, run_end_date=2024-06-25 12:41:10.247511+00:00, run_duration=9.426482, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-25 12:40:59.280607+00:00, data_interval_end=2024-06-25 12:40:59.280607+00:00, dag_hash=87b7b49334599998e349171c9a7e6e52
+2024-06-25 12:41:42,687 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:46:42,823 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:51:42,957 INFO - Resetting orphaned tasks for active dag runs
+2024-06-25 12:56:43,099 INFO - Resetting orphaned tasks for active dag runs

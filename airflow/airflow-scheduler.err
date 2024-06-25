@@ -1,5 +1,23 @@
-[2024-06-24 17:07:39 +0000] [9297] [INFO] Starting gunicorn 20.1.0
-[2024-06-24 17:07:39 +0000] [9297] [INFO] Listening at: http://[::]:8793 (9297)
-[2024-06-24 17:07:39 +0000] [9297] [INFO] Using worker: sync
-[2024-06-24 17:07:39 +0000] [9298] [INFO] Booting worker with pid: 9298
-[2024-06-24 17:07:39 +0000] [9303] [INFO] Booting worker with pid: 9303
+[2024-06-25 11:21:39 +0000] [6773] [INFO] Starting gunicorn 20.1.0
+[2024-06-25 11:21:39 +0000] [6773] [INFO] Listening at: http://[::]:8793 (6773)
+[2024-06-25 11:21:39 +0000] [6773] [INFO] Using worker: sync
+[2024-06-25 11:21:39 +0000] [6774] [INFO] Booting worker with pid: 6774
+[2024-06-25 11:21:39 +0000] [6776] [INFO] Booting worker with pid: 6776
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/base.py:27 DeprecationWarning: The sql_alchemy_schema option in [core] has been moved to the sql_alchemy_schema option in [database] - the old setting has been used, but please update your config.
+/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/retries.py:28 DeprecationWarning: The max_db_retries option in [core] has been moved to the max_db_retries option in [database] - the old setting has been used, but please update your config.
